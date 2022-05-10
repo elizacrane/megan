@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity"
+    android:background="@drawable/stones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:background="#80000000"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+
+        <Button
+            android:id="@+id/infoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Info" />
+
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Us" />
+
+        <Button
+            android:id="@+id/emailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Us" />
+
+        <Button
+            android:id="@+id/smsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text Us" />
+    </LinearLayout>
+
+</LinearLayout>
